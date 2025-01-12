@@ -1,0 +1,342 @@
+
+header {
+    background-color: rgb(116, 4, 4);
+    color: white;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.for-search-header
+{
+padding: 0px;
+width: 100% !important;
+}
+
+header .logo img {
+    height: 60px; 
+}
+
+header .title {
+    font-size: 20px; 
+    margin-left: 10px; 
+    grid-column: 1;
+}
+nav .nav-link
+{
+    color: white !important;
+}
+/********************************************* sidebar *********************************************/
+.explore
+{
+    margin-top: 30px;
+}
+.sidebar
+{
+    background-color: rgb(236, 234, 234) !important;
+    width: 30%;
+    height: 565px;
+    position: fixed;
+    margin-top: 0px;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 13px;
+    padding: 0px;
+    gap: 0px;
+    padding-bottom: 0px;
+}
+.grid div
+{
+    padding: 0px;
+}
+.content
+{
+    margin-left: 32px;
+}
+nav
+{
+    justify-content: center !important;
+}
+.search-icon-nav
+{
+    font-size: 35px;
+    margin-right: 4px;
+}
+/**************** searchbar ****************/
+.search-box 
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc; /* Outer border */
+    padding: 15px; /* Add padding for better spacing */
+    width: 90%; /* Adjust width as needed */
+    box-shadow: none; /* Remove shadow if applied */
+    background-color: white;
+}
+.search-icon {
+    color: #920505;
+    font-size: 30px; /* Adjust icon size */
+    margin-right: 8px; /* Space between icon and input */
+}
+
+input {
+    border: none; /* Remove inner border */
+    outline: none; /* Remove focus outline */
+    flex: 1; /* Allow input to grow and fill remaining space */
+    font-size: 14px; /* Adjust text size */
+    color: #333; /* Text color */
+}
+
+input::placeholder {
+    color: #888; /* Placeholder color */
+}
+/**************************************** main content ****************************************/
+.picture 
+{
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.small
+{
+    font-size: 13px;
+    display: inline;
+    color: black;
+}
+.search-icon
+{
+    display: inline;
+}
+.bottom div
+{
+    display: inline;
+}
+.small-underline
+{
+    text-decoration: underline;
+    text-decoration-color: #920505;
+    text-decoration-thickness: 2px;
+    display: inline;
+}
+.small-underline1
+{
+    text-decoration: underline;
+    text-decoration-color: #d10202;
+    text-decoration-thickness: 1px;
+    display: inline;
+}
+.iconimg
+{
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+.underline :hover
+{
+    color: #920505;
+}
+.bottom
+{
+    margin-bottom: 0px;
+}
+.bottom strong
+{
+    margin-bottom: 2px;
+}
+
+.main-content
+  {
+    /* border: 2px solid; */
+    margin-left: 405px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+  }
+  .notif
+  {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    color: black;
+    background-color: #cecdcd;
+  }
+  .underline
+  {
+    text-decoration: underline;
+    text-decoration-color: rgb(192, 4, 4);
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    margin-bottom: 5px;
+    display: inline;
+  }
+  .big-description
+  {
+    padding-left: 70px;
+    padding-right: 90px;
+    color: black;
+    font-size: auto;
+    font-weight: 540;
+    font-family: Arial, sans-serif;
+  }
+  .big-description p
+  {
+    text-decoration: underline;
+    text-decoration-color: rgb(192, 4, 4);
+    text-decoration-thickness: 3px;
+    text-decoration-style: solid;
+    display: inline;
+  }
+  .links p
+  {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+  }
+  .links
+  {
+    padding-left: 60px;
+    margin-top: 40px;
+  }
+  .links p
+  {
+    display: inline;
+  }
+  .big-div
+  {
+    margin-top: 60px;
+  }
+  .big-div-header
+  {
+    justify-self: center;
+    color: black;
+    font-size: 20px;
+  }
+  .grid-content 
+  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.grid-content img 
+{
+    width: 100%;
+    height: 300px;
+}
+
+.pic-header, .pic-description 
+{
+    display: block;
+}
+.pic-header
+{
+    font-weight: 600;
+    color: black;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pic-description
+{
+    color: black;
+    font-size: larger;
+    font-weight: 450;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+.footer
+{
+    background-color: rgb(83, 2, 2);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.footer p
+{
+    display: inline;
+}
+.font
+{
+    font-size: 15px;
+    color: black;
+}
+.iconsss
+{
+    width: 50px;
+}
+/************************************** responsive **************************************/
+@media (max-width: 768px) {
+    /* For mobile devices */
+    nav ul {
+        flex-direction: column; /* Stack nav items vertically */
+        gap: 15px;
+    }
+
+    .sidebar {
+        width: 100%; /* Make sidebar full width on small screens */
+        position: relative; /* Make sidebar flow with content */
+        height: auto;
+    }
+
+    .grid {
+        grid-template-columns: 1fr; /* Stack the grid items vertically */
+    }
+
+    .search-box {
+        width: 100%; 
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+    .main-content {
+        margin-left: 0; 
+    }
+
+    .big-description {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .grid-content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    header img {
+        height: 50px; 
+    }
+
+    .search-icon-nav {
+        font-size: 30px; 
+    }
+
+    .pic-header {
+        font-size: 18px; 
+    }
+
+    .pic-description {
+        font-size: 16px; 
+    }
+
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
