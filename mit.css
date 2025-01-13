@@ -1,6 +1,6 @@
 
 header {
-    background-color: rgb(116, 4, 4);
+    background-color: rgb(117, 0, 20);
     color: white;
     display: flex;
     padding-top: 20px;
@@ -141,6 +141,7 @@ input::placeholder {
 .underline :hover
 {
     color: #920505;
+    cursor: pointer;
 }
 .bottom
 {
@@ -221,7 +222,9 @@ input::placeholder {
   .grid-content 
   {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px; 
     padding: 20px; 
 }
