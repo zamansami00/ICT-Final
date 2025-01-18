@@ -275,6 +275,7 @@ input::placeholder {
 {
     width: 50px;
 }
+
 /************************************** responsiveness **************************************/
 @media (max-width: 768px) {
     /* For mobile devices */
